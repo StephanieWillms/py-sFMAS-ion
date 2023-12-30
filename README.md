@@ -8,11 +8,11 @@ and is suggested by the author as a comprehensive introduction to the topic of s
 
 # Userguide
 
-The top-level code “py-sFMAS-ion.py” imports all the modules  to execute the simulation. The results are stored in a python native compressed “npz” file in the directory labeled “\Data”.
+The top-level code `py-sFMAS-ion.py` imports all the modules  to execute the simulation. The results are stored in a python native compressed `npz` file in the directory labeled “\Data”.
 
 - inputPulse.py: Module generates the initial condition from values set to “ini.py”
 - splitStepSolver.py: Implements a simple split-step scheme with Runge-Kutta 4th order for the nonlinear part. Nonlinear coefficient n2 is assumed to be a constant.
-- observables : stores generated data in “npz”-file format
+- observables : stores generated data in `npz`-file format
 - mediumDispersion: Implements 4 different propagation constants as a refractive index. Three of those (WD2017,Benabid,sinusoid) are found in the main text of [], while kagome is used for the test-calculation of the paper [].
 - ini.py: Defines all necessary initial parameters for setting up the calculation domain and the system
 - ioni.py: Implements the nonlinear part, responsible for ionization
