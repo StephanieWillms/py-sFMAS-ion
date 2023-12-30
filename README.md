@@ -1,5 +1,5 @@
 # py-sFMAS-ion
-The software package [py-sFMAS-ion.py] solves a z-propagation equation for an analytic signal in single mode fibers. The code represents a basic version of the one that was used for the preparation of the dissertation of the author. Single mode propagation for higher order dispersion, and advanced nonlinear contribution such as the impact of ionization can be modeled.
+The software package `py-sFMAS-ion.py` solves a z-propagation equation for an analytic signal in single mode fibers. The code represents a basic version of the one that was used for the preparation of the dissertation of the author. Single mode propagation for higher order dispersion, and advanced nonlinear contribution such as the impact of ionization can be modeled.
 
 In this repository the source code to reproduce many of the simulations that can be found in the dissertation []. An user example for a simulation from [] is included here.
 
