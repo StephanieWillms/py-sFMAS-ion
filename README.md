@@ -30,8 +30,8 @@ The folder structure is given as:
 │   │   ├── observables.py
 │   │   ├── inputPulse.py
 │   ├── Data
-|   |   ├── x.npz
-|   |   ├── figure.py
+│   │   ├── x.npz
+│   │   ├── figure.py
 ├── LICENSE
 ├── README.md
 
