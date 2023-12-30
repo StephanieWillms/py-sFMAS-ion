@@ -19,3 +19,20 @@ The top-level code `py-sFMAS-ion.py` imports all the modules  to execute the sim
 
 
 The folder structure is given as:
+
+```bash
+├── py-sFMAS-ion.py
+│   ├── src
+│   │   ├── ini.py
+│   │   ├── mediumDispersion.py
+│   │   ├── splitStepSolver.py
+│   │   ├── ioni.py
+│   │   ├── observables.py
+│   │   ├── inputPulse.py
+│   ├── Data
+|   |   ├── x.npz
+|   |   ├── figure.py
+├── LICENSE
+├── README.md
+
+```
