@@ -51,7 +51,7 @@ Fiber Radius:20um
 strut:0.8um
 Gas pressure:3bar
 
-
+```bash
 """ Pulse 1 """
     p01_t0   = 40                      # pulsewidth
     p01_w0   = 3.44                    # centralfrequency
@@ -63,7 +63,7 @@ Gas pressure:3bar
     p02_w0   = 4.54                    # centralfrequency    
     p02_N    = 1.0                     # order
     p02_tOff = 0.0                     # temporal offset between p01 and p02
-
+```
 
 # Generating figure
 
