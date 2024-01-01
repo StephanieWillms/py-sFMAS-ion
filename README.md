@@ -36,3 +36,37 @@ The folder structure is given as:
 └── README.md
 
 ```
+
+# Example
+
+The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 6.3 of Ref [].
+
+------ Computational Domain -------
+tMax:5000.0
+Nt:131072
+zMax:100000
+Nz:10000
+------ Fiber Properties -------
+Fiber Radius:20um
+strut:0.8um
+Gas pressure:3bar
+
+
+""" Pulse 1 """
+    p01_t0   = 40                      # pulsewidth
+    p01_w0   = 3.44                    # centralfrequency
+    p01_N    = 1.0                     # soliton order                 
+    p01_tOff = 0.00                    # temporal offset between p01 and p02
+   
+""" Pulse 2 """
+    p02_t0   = 40                      # pulsewidth
+    p02_w0   = 4.54                    # centralfrequency    
+    p02_N    = 1.0                     # order
+    p02_tOff = 0.0                     # temporal offset between p01 and p02
+
+
+# Generating figure
+
+In addition to the source code for modelling the z-propagation, a script `figure.py` is included allowing for visualizing the results.
+
+This script, located in the folder \Data, can be excecuted in the same folder by including a string system value, containing the calculated data that shall be presented. The generated figure results in Fig.1:
