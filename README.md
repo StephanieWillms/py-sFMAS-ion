@@ -42,28 +42,20 @@ The folder structure is given as:
 The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 6.3 of Ref [].
 
 ------ Computational Domain -------
-
 tMax:5000.0
-
 Nt:131072
-
 zMax:100000
-
 Nz:10000
-
 ------ Fiber Properties -------
-
 Fiber Radius:20um
-
 strut:0.8um
-
 Gas pressure:3bar
 
 
 """ Pulse 1 """
     p01_t0   = 40                      # pulsewidth
     p01_w0   = 3.44                    # centralfrequency
-    p01_N    = 1.0                     # soliton order                 
+    p01_N    = 1.0                     # soliton order         
     p01_tOff = 0.00                    # temporal offset between p01 and p02
    
 """ Pulse 2 """
