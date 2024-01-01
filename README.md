@@ -40,7 +40,7 @@ The folder structure is given as:
 # Example
 
 The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 6.3 of Ref [].
-
+```bash
 ------ Computational Domain -------
 tMax:5000.0
 Nt:131072
@@ -50,6 +50,7 @@ Nz:10000
 Fiber Radius:20um
 strut:0.8um
 Gas pressure:3bar
+```
 
 ```bash
 """ Pulse 1 """
