@@ -127,4 +127,6 @@ In addition to the source code for modelling the z-propagation, the scripts `fig
 This script, located in the folder \Data, can be excecuted in the same folder by including a string system value, containing the calculated data that shall be presented. 
 
 The generated result from Example #1 evaluated with `figure.py` results in Fig.1:
+![Alt text](FIGS/obs_sFMAS-RK4-da_Nt65536_Nz15000_p01_t030.000_w01.200_N1.000_p02_t030.000_w02.939_N1.000_tOff1.000__ioni_off_T.pdf?raw=true "Title")
+
 
