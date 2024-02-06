@@ -41,7 +41,8 @@ The folder structure is given as:
 
 ## Example #1
 
-The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 2.2 (see also Fig.2.2 therein) of Ref [].
+The following exmple describes the propagation of a direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 2.2 (see also Fig.2.2 therein) of Ref [thesis]. The used fiber is 'WD2017'.
+
 ```bash
 Pulsetype:sech
 Pulse energy:2.4999999999999998e-06J
@@ -77,10 +78,12 @@ Involved Pulses:two
     p02_tOff = 0.0                     # temporal offset between p01 and p02
 ```
 
-Running the software with the above shown parameters results in the generation of a file: ´/Data/obs_sFMAS-RK4-da_Nt65536_Nz15000_p01_t030.000_w01.200_N1.000_p02_t030.000_w02.939_N1.000_tOff1.000__ioni_off.npz´
+Running the software with the above shown parameters results in the generation of a file: `/Data/obs_sFMAS-RK4-da_Nt65536_Nz15000_p01_t030.000_w01.200_N1.000_p02_t030.000_w02.939_N1.000_tOff1.000__ioni_off.npz`
+
+
 ## Example #2
 
-The following exmple describes propagation of a soliton pulse under the impact of ionization. The example is taken from Ref. [] in order to test the implemented ionization code. A detailed description can be found in the appendix D of Ref. [thesis] and Fig. D.3 therein.
+The following exmple describes propagation of a soliton pulse under the impact of ionization. The example is taken from Ref. [] in order to test the implemented ionization code. A detailed description can be found in the appendix D of Ref. [thesis] and Fig. D.3 therein. The used fiber is 'kagome'.
 
 ```bash
 Pulsetype:sech
@@ -119,6 +122,9 @@ Involved Pulses:two
 
 # Generating figure
 
-In addition to the source code for modelling the z-propagation, a script `figure.py` is included allowing for visualizing the results.
+In addition to the source code for modelling the z-propagation, the scripts `figure.py` and `figure_Chang.py` are included allowing for visualizing the results.
 
-This script, located in the folder \Data, can be excecuted in the same folder by including a string system value, containing the calculated data that shall be presented. The generated figure results in Fig.1:
+This script, located in the folder \Data, can be excecuted in the same folder by including a string system value, containing the calculated data that shall be presented. 
+
+The generated result from Example #1 evaluated with `figure.py` results in Fig.1:
+
