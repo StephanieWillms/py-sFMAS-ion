@@ -134,8 +134,11 @@ The generated result from Example #2 evaluated with `figure_Chang.py` results in
 # References
 
 [1] S. Willms, Dissertation, 2024
+
 [2] W. Chang, A. Nazarkin, J. C. Travers, J. Nold, P. Hölzer, N. Y. Joly, and P. S. J. Russell, “Influence of ionization on ultrafast gas-based nonlinear fiber optics,” Opt. Exp., vol. 19, p. 21018, 2011.
+
 [3] O. Melchert, A. Demircan, A python package for ultrashort optical pulse propagation in terms of forward models for the analytic signal, arXiv:2104.11649, https://arxiv.org/abs/2104.11649.
+
 [4] O. Melchert, py-fmas,  GitHub repository, [https://github.com/charlespwd/project-title](https://github.com/omelchert/py-fmas)https://github.com/omelchert/py-fmas
 
 
