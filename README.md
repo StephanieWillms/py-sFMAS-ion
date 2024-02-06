@@ -39,29 +39,38 @@ The folder structure is given as:
 
 # Example
 
-The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 6.3 of Ref [].
+The following exmple describes the direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 2.2 (see also Fig.2.2 therein) of Ref [].
 ```bash
+Pulsetype:sech
+Pulse energy:2.4999999999999998e-06J
+Ionization:off
+
 ------ Computational Domain -------
-tMax:5000.0
-Nt:131072
-zMax:100000
-Nz:10000
+tMax:2000.0
+Nt:65536
+zMax:150000
+Nz:15000
+
 ------ Fiber Properties -------
-Fiber Radius:20um
+Fiber Radius:8um
 strut:0.8um
 Gas pressure:3bar
+
+------ Parameters -------
+Nonlinearity:2.3545599999999996e-07um^2/W
+Involved Pulses:two
 ```
 
 ```bash
 """ Pulse 1 """
-    p01_t0   = 40                      # pulsewidth
-    p01_w0   = 3.44                    # centralfrequency
+    p01_t0   = 30                      # pulsewidth
+    p01_w0   = 1.2                     # centralfrequency
     p01_N    = 1.0                     # soliton order         
     p01_tOff = 0.00                    # temporal offset between p01 and p02
    
 """ Pulse 2 """
-    p02_t0   = 40                      # pulsewidth
-    p02_w0   = 4.54                    # centralfrequency    
+    p02_t0   = 30                      # pulsewidth
+    p02_w0   = 2.939                   # centralfrequency    
     p02_N    = 1.0                     # order
     p02_tOff = 0.0                     # temporal offset between p01 and p02
 ```
