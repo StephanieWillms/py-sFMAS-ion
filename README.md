@@ -26,7 +26,7 @@ The folder structure is given as:
 │   ├── ini.py
 │   ├── mediumDispersion.py
 │   ├── splitStepSolver.py
-│   ├── ioni.py
+│   ├── nonLin.py
 │   ├── observables.py
 │   └── inputPulse.py
 ├── Data
