@@ -124,7 +124,7 @@ This script, located in the folder \Data, can be excecuted in the same folder by
 
 The generated result from Example #1 evaluated with `figure.py` results in ![Fig.1](FIGS/obs_sFMAS-RK4-da_Nt65536_Nz15000_p01_t030.000_w01.200_N1.000_p02_t030.000_w02.939_N1.000_tOff1.000__ioni_off_T.pdf)
 
-The generated result from Example #2 evaluated with `figure_Chang.py` results in 
+The generated result from Example #2 evaluated with `figure_Chang.py` results in ![Fig.2](FIGS/obs_sFMAS-RK4-da_Nt65536_Nz20000_p01_t030.000_w02.356_N1.000__ioni_on_T.pdf)
 
 # References
 
