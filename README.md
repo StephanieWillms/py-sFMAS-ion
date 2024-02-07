@@ -31,7 +31,7 @@ The folder structure is given as:
 │   └── inputPulse.py
 ├── Data
 │   ├── x.npz
-|   ├── figure_Chang.py
+│   ├── figure_Chang.py
 │   └── figure.py
 ├── LICENSE
 └── README.md
@@ -89,37 +89,32 @@ The following exmple describes propagation of a soliton pulse under the impact o
 ```bash
 Pulsetype:sech
 Pulse energy:2.4999999999999998e-06J
-Ionization:off
-
+Ionization:on
 ------ Computational Domain -------
 tMax:2000.0
 Nt:65536
-zMax:150000
-Nz:15000
-
+zMax:100000
+Nz:20000
 ------ Fiber Properties -------
 Fiber Radius:8um
 strut:0.8um
 Gas pressure:3bar
-
+... finished
 ------ Parameters -------
-Nonlinearity:2.3545599999999996e-07um^2/W
-Involved Pulses:two
+Nonlinearity:4.1599999999999997e-07um^2/W
+Involved Pulses:one
+
 ```
 
 ```bash
 """ Pulse 1 """
     p01_t0   = 30                      # pulsewidth
-    p01_w0   = 1.2                     # centralfrequency
+    p01_w0   = 2.356                   # centralfrequency
     p01_N    = 1.0                     # soliton order         
     p01_tOff = 0.00                    # temporal offset between p01 and p02
    
-""" Pulse 2 """
-    p02_t0   = 30                      # pulsewidth
-    p02_w0   = 2.939                   # centralfrequency    
-    p02_N    = 1.0                     # order
-    p02_tOff = 0.0                     # temporal offset between p01 and p02
 ```
+Running the software with the above shown parameters results in the generation of a file: `/Data/obs_sFMAS-RK4-da_Nt65536_Nz20000_p01_t030.000_w02.356_N1.000__ioni_on.npz`
 
 # Generating figure
 
