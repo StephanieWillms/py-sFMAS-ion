@@ -15,7 +15,7 @@ The top-level code `main.py` imports all the modules to execute the simulation. 
 - observables : stores generated data in `npz`-file format
 - mediumDispersion: Implements 4 different propagation constants as a refractive index. Three of those (WD2017,Benabid,sinusoid) are found in the main text of [1], while kagome is used for the test-calculation of the paper [2].
 - ini.py: Defines all necessary initial parameters for setting up the calculation domain and the system
-- ioni.py: Implements the nonlinear part, responsible for ionization
+- nonLin.py: Implements the nonlinear part, responsible for ionization
 
 
 The folder structure is given as:
