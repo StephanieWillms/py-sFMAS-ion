@@ -42,7 +42,7 @@ The folder structure is given as:
 
 ## Example #1
 
-The following exmple describes the propagation of a direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 2.2 (see also Fig.2.2 therein) of Ref [1]. The used fiber is 'WD2017'.
+The following exmple describes the propagation of a direct superposition of two fundamental solitons, generating a multi-frequency state, as discussed in Ch. 2.2 (see also Fig.2.4 therein) of Ref [1]. The used fiber is 'WD2017'.
 
 ```bash
 Pulsetype:sech
